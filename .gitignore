@@ -8,6 +8,7 @@
 /bazel-out
 *lock*
 
+ng-aws-deploy
 # dependencies
 /node_modules
 
