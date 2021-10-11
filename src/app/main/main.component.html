@@ -1,6 +1,3 @@
-<div class="panel panel-default" *ngIf="joke">
-    <div class="panel-heading">Chuck Norris Jokes</div>
-    <div class="panel-body">
-    <h3>{{joke.value | uppercase}}</h3>
-    </div>
-</div>
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;" *ngIf="joke">
+    <a class="navbar-brand" href="#">{{joke.value | uppercase}}</a>
+</nav>
